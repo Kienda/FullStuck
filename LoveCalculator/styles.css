@@ -1,0 +1,33 @@
+body{
+  background-color: red;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: white;
+}
+
+input{
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  outline: none;
+}
+#btn{
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
